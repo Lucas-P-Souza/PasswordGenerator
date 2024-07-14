@@ -1,6 +1,5 @@
 #imports of libraries that will be used    
 import random
-import string
 
 #defining the variables that will be used
 lowercase = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 
