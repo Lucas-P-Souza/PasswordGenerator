@@ -18,7 +18,7 @@ version: 1.0
 
 ## For the future
     Change the way that the variables: lowercase, uppercase, digits and special_characters are defined.
-    Find out how to implement the library 'string' to make the code easier and simpler
+    Find out how to implement the library 'string' to make the code easier and simpler.
 
 ## Already done
     Use only one function (generate_password) to create different types of passwords.
