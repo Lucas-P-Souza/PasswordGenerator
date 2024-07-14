@@ -3,6 +3,7 @@ author: Lucas de Paula Souza
 date: 20214-07-14
 version: 1.0
 
+
 # description: 
         This is a simple password generator that allows the user to choose the type of password to be 
         generated.The existing options are: only letters, only numbers, letters and numbers, letters, 
