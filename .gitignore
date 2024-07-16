@@ -1,2 +1,2 @@
 #ignore only this files
-pycache/
+__pycache__/
