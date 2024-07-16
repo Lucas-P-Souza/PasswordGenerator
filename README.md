@@ -22,3 +22,28 @@
 - Use only one function (`generate_password`) to create different types of passwords.
 - Create a menu to choose which type of password the user wants to generate.
 - Use the library `tkinter` to build a window to improve the user experience.
+
+# README -> Pt - Br
+**Autor:** Lucas de Paula Souza  
+**Data:** 2024-07-14  
+**Versão:** 1.0
+
+## Descrição 
+
+        Este é um simples gerador de senhas que permite ao usuário escolher o tipo de senha 
+        a ser gerada. As opções disponíveis são: apenas letras, apenas números, letras e números, 
+        e letras,números e caracteres especiais. O usuário deve informar o comprimento desejado da 
+        senha e otipo de senha a ser gerada. A senha é gerada aleatoriamente e os caracteres são 
+        embaralhados para aumentar a segurança. O usuário pode gerar quantas senhas desejar até 
+        optar por sair do programa.
+
+## Melhorias
+
+### Para o futuro
+- Alterar a forma como as variáveis `lowercase`, `uppercase`, `digits` e `special_characters` são definidas.
+- Descobrir como implementar a biblioteca `string` para tornar o código mais fácil e simples.
+
+### Já implementado
+- Utilização de apenas uma função (`generate_password`) para criar diferentes tipos de senhas.
+- Criação de um menu para escolher qual tipo de senha o usuário deseja gerar.
+- Utilização da biblioteca `tkinter` para construir uma janela e melhorar a experiência do usuário.
