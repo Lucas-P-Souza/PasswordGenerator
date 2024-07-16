@@ -1,7 +1,7 @@
 # README
 **Author:** Lucas de Paula Souza  
-**Date:** 2024-07-14  
-**Version:** 1.0
+**Date:** 2024-07-16  
+**Version:** 2.0
 
 ## Description 
 
@@ -25,8 +25,8 @@
 
 # README -> Pt - Br
 **Autor:** Lucas de Paula Souza  
-**Data:** 2024-07-14  
-**Versão:** 1.0
+**Data:** 16-07-2024  
+**Versão:** 2.0
 
 ## Descrição 
 

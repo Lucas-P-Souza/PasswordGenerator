@@ -30,7 +30,7 @@ choices = [
     ("Letters", 1),
     ("Numbers", 2),
     ("Letters e numbers", 3),
-    ("Letters, numbers and special characters", 4)
+    ("Letters, numbers and special characters", 4) 
 ]
 #creating the radio buttons with the choices that were defined before
 #the variable that will be used to store the choice of the user is var_choice
