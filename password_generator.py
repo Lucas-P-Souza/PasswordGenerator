@@ -46,7 +46,7 @@ def menu():
     print("1. Only letters?")
     print("2. Only numbers?")
     print("3. Letters and numbers?")
-    print("4. Letters, numbers and special characters?")
+    print("4. Letters, numbers and special characters?")  
     print("5. Sair")
     return input("Choose an option: ")
 

@@ -46,4 +46,4 @@
 ### Já implementado
 - Utilização de apenas uma função (`generate_password`) para criar diferentes tipos de senhas.
 - Criação de um menu para escolher qual tipo de senha o usuário deseja gerar.
-- Utilização da biblioteca `tkinter` para construir uma janela e melhorar a experiência do usuário.
+- Utilização da biblioteca `tkinter` para construir uma janela e melhorar a experiência do usuário.  

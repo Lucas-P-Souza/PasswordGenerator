@@ -8,7 +8,7 @@ from password_generator import generate_password
 def generate_password_gui():
     length = int(entry_length.get())
     choice = int(var_choice.get())
-    password = generate_password(length, choice)
+    password = generate_password(length, choice)    
     entry_password.delete(0, tk.END)
     entry_password.insert(0, password)
 
