@@ -14,6 +14,9 @@ special_characters = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_'
                       '+', '[', ']', '{', '}', '|', ';', ':', ',', '.', '<', '>', '/', '?']
 
 def generate_password(length, choice):
+    
+    password = []
+    
     #verifying if the length is less than 1
     if length < 1:
         return "Password length must be at least 1."
@@ -21,28 +24,39 @@ def generate_password(length, choice):
     #verifying the choice of the user and defining the characters that will be used
     if choice == 1:
         all_characters = lowercase + uppercase
+        password.append(random.choice(lowercase))
+        password.append(random.choice(uppercase))
     elif choice == 2:
         all_characters = digits
+        password.append(random.choice(digits))
     elif choice == 3:
         all_characters = lowercase + uppercase + digits
+        password.append(random.choice(lowercase))
+        password.append(random.choice(uppercase))
+        password.append(random.choice(digits))
     elif choice == 4:
         all_characters = lowercase + uppercase + digits + special_characters
+        password.append(random.choice(lowercase))
+        password.append(random.choice(uppercase))
+        password.append(random.choice(digits))
+        password.append(random.choice(special_characters))
+    else:
+        return "Invalid option."
 
-    #generating the password with the characters that were defined before
-    password = random.choices(all_characters, k=length)
-
+    #adding additional random characters to the password
+    if length > len(password):
+        password.extend(random.choices(all_characters, k=length-len(password)))
+    
     #shuffling the password to make it more random
     random.shuffle(password)
 
     #returning the password as a string
     return ''.join(password)
         
-        
-
 #defining the function that will show the menu
 def menu():
     print("Password Generator")
-    print("You whould like to create a password with:")
+    print("You would like to create a password with:")
     print("1. Only letters?")
     print("2. Only numbers?")
     print("3. Letters and numbers?")
